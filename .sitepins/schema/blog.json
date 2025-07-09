@@ -1,0 +1,67 @@
+{
+  "file": "content/blog/astro-js-introduction.md",
+  "name": "blog",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "label": "Title",
+      "name": "title",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Date",
+      "name": "date",
+      "type": "Date",
+      "value": ""
+    },
+    {
+      "label": "Meta Title",
+      "name": "meta_title",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Image",
+      "name": "image",
+      "type": "media",
+      "value": ""
+    },
+    {
+      "label": "Author",
+      "name": "author",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Last Update",
+      "name": "last_update",
+      "type": "Date",
+      "value": ""
+    },
+    {
+      "label": "Sponsored",
+      "name": "sponsored",
+      "type": "boolean",
+      "value": ""
+    },
+    {
+      "label": "Draft",
+      "name": "draft",
+      "type": "boolean",
+      "value": ""
+    },
+    {
+      "label": "Categories",
+      "name": "categories",
+      "type": "Array"
+    }
+  ]
+}

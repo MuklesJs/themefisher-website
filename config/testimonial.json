@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Doug Ouverson",
+    "role": "CEO, The Ouverson Group, Inc",
+    "avatar": "/images/testimonials/doung.png",
+    "verified": true,
+    "stars": 5,
+    "quote": "With 20 years of experience in web development, I found Themefisher to be an excellent choice for high-quality, fairly priced themes. Incredibly supportive, even going beyond to help us with a technical issue."
+  },
+  {
+    "name": "Ahmed Ammar",
+    "role": "Software Engineer",
+    "avatar": "/images/testimonials/ahmed.png",
+    "verified": true,
+    "stars": 5,
+    "quote": "I'm actually impressed by the quality and features included in the theme. I did not know these things could be done in Hugo. I'm pretty happy with the entire bundle."
+  },
+  {
+    "name": "Renee Weir",
+    "role": "Customer Service Manager, PRD Software",
+    "avatar": "/images/testimonials/reene.png",
+    "verified": true,
+    "stars": 5,
+    "quote": "The theme has a lot of flexibility and was easy to work with and the results are great."
+  },
+  {
+    "name": "Harsha Jasti",
+    "role": "Founder, Intworks",
+    "avatar": "/images/testimonials/harsha.png",
+    "verified": true,
+    "stars": 5,
+    "quote": "Trust me, this is by far the best set of themes available for Hugo. Quite reliable support team as well."
+  }
+]

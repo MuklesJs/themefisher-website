@@ -1,0 +1,181 @@
+// navbar toggler
+.navbar-toggler {
+  @apply h-11 w-11 rounded border border-border;
+}
+
+.header-navigation {
+  @apply absolute top-0 left-0 z-30 w-full bg-body;
+
+  .navbar-nav {
+    @apply container flex flex-wrap items-center justify-between py-4 lg:flex-nowrap;
+  }
+}
+
+.navigation-fixed .header-navigation {
+  @apply fixed bg-body/70 shadow-xl backdrop-blur-md;
+  animation: slideInLinear 0.35s ease-out;
+}
+
+@keyframes slideInLinear {
+  0% {
+    transform: translateY(-4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// navbar items
+.nav-item {
+  @apply relative;
+
+  &:hover .mega-menu {
+    @apply scale-100 translate-y-0 opacity-100 visible;
+  }
+
+  .nav-link {
+    @apply inline-block py-2.5 px-2 text-dark 2xl:px-4;
+  }
+
+  &.nav-item-dropdown-icon {
+    .nav-link {
+      @apply mr-[8px];
+    }
+  }
+
+  &.active .nav-link {
+    @apply text-primary;
+  }
+
+  &-dropdown-icon {
+    @apply relative pr-4 2xl:pr-3;
+    &::before {
+      @apply absolute right-6 top-3 h-2.5 w-2.5 rotate-45 rounded-sm border-2 border-dark  content-[""] lg:right-4 lg:top-4 lg:inline-block;
+      @apply border-l-transparent #{!important};
+      @apply border-t-transparent #{!important};
+    }
+    &.active::before {
+      @apply border-primary;
+    }
+  }
+}
+
+// mega menu
+.mega-menu {
+  @apply absolute bg-body z-10 shadow-[0_25px_65px_0_rgba(0,0,0,.1)] -ml-[100px] rounded translate-y-1 origin-top  opacity-0 invisible flex py-5;
+  transition:
+    visibility 0.2s,
+    opacity 0.2s,
+    transform 0.3s;
+
+  & > ul {
+    @apply w-[320px] px-5;
+
+    &:not(:last-child) {
+      @apply border-r-[1px] border-[#ebebeb];
+    }
+
+    li {
+      @apply text-light font-medium;
+    }
+  }
+}
+
+.menu-child-pages {
+  .child-page-link {
+    @apply p-[15px] hover:bg-primary/10 rounded transition-all duration-200;
+
+    span i {
+      @apply block not-italic text-light transition-all duration-200 font-medium;
+    }
+
+    &:hover span i:first-child {
+      @apply text-dark;
+    }
+    &.highlight {
+      @apply bg-gradient;
+      * {
+        @apply text-white hover:text-white #{!important};
+      }
+    }
+  }
+
+  .child-page-name {
+    @apply font-semibold;
+  }
+
+  .child-page-subtitle {
+    @apply text-[12px] opacity-60 text-light font-normal;
+  }
+}
+
+//mobile dropdown
+.nav-dropdown {
+  @apply top-[100%] left-0 z-[999] m-0 mx-[14px] hidden rounded-[10px] border-0 bg-[#f7f7f7] p-2.5 text-left transition-all duration-300 lg:invisible lg:absolute lg:mx-0 lg:block lg:translate-y-5 lg:bg-body lg:opacity-0 lg:shadow-[0px_25px_65px_0px_rgba(0,0,0,.1)];
+
+  .dropdown-link {
+    @apply mb-1 block p-2 font-medium lg:mb-0 lg:inline-block;
+  }
+
+  &.dropdown-open {
+    @apply block;
+  }
+}
+
+// mobile menu
+.mobile-menu {
+  @apply fixed top-0 -left-[280px] z-40 h-full w-[280px] select-none overflow-y-auto bg-body transition-all duration-300;
+
+  &.show {
+    @apply left-0;
+  }
+}
+
+.navigation-overlay {
+  @extend .overlay !optional;
+  @apply invisible opacity-0 transition-all;
+  &-show {
+    @apply visible opacity-100;
+  }
+}
+
+// progressbar
+.progressbar {
+  @apply pointer-events-none fixed top-0 left-0 w-full;
+  &-line {
+    @apply h-1 bg-primary/40 w-0;
+  }
+}
+
+// search style
+.search-bar {
+  @apply relative flex items-center min-w-[2rem] 2xl:min-w-[12rem] cursor-pointer rounded border-border border py-1.5 px-3 text-sm text-muted bg-white;
+}
+
+.search-box {
+  @apply relative z-50 mx-auto mt-[100px] h-auto w-[900px] max-w-[calc(100%-20px)] overflow-hidden rounded bg-body shadow-lg lg:max-w-[calc(100%-50px)];
+}
+
+// dashboard menu
+.dash-menu {
+  @apply md:relative;
+  &-items {
+    @apply right-0 md:top-[30px] top-[75px] absolute md:w-[340px] w-screen invisible opacity-0 transition-all duration-300;
+  }
+  &:hover {
+    .dash-menu-items {
+      @apply visible translate-y-2 opacity-100;
+    }
+  }
+  &-list {
+    @apply border-y border-border py-2;
+    &-item {
+      &-link {
+        @apply py-3 px-3 rounded block;
+        &:hover {
+          @apply bg-theme-light;
+        }
+      }
+    }
+  }
+}

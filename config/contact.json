@@ -1,0 +1,23 @@
+{
+  "success_message": {
+    "theme_support": "**Thank you for getting in touch!** <br></br>We’re excited to review your submission and let’s see how we can best serve you. We will be in touch within 24 hours until then take care of yourself. <br></br>Have a great day!",
+    "pre_sales_questions": "**Thank you for getting in touch!** <br></br>We’re excited to review your submission and let’s see how we can best serve you. We will be in touch within 24 hours until then take care of yourself. <br></br>Have a great day!",
+    "payment_problem": "**Thank you for getting in touch!** <br></br>We’re excited to review your submission and let’s see how we can best serve you. We will be in touch within 24 hours until then take care of yourself. <br></br>Have a great day!",
+    "others": "**Thank you for getting in touch!** <br></br>We’re excited to review your submission and let’s see how we can best serve you. We will be in touch within 24 hours until then take care of yourself. <br></br>Have a great day!"
+  },
+  "theme_support_disclaimer": {
+    "disclaimer_starting": "**Please use the email address that you used to purchase the theme**. Our support team will be able to help you more quickly if you provide this information. Also, please keep in mind that our support:",
+    "included": [
+      "Bug fixing",
+      "Theme installation difficulties",
+      "Questions regarding existing features"
+    ],
+    "not_included": [
+      "Theme customization",
+      "Development of new features",
+      "Fixing issues that were caused by third-party apps or custom work"
+    ],
+    "disclaimer_ending": "If you have specific requirements for your project that our theme doesn’t already include, you can check [our services](/custom-development) to make changes to your website."
+  },
+  "policy_disclaimer": "* Your data is safe with us. We take your privacy seriously and never share your data with anyone. To learn more read our [Privacy Policy](/privacy-policy)."
+}

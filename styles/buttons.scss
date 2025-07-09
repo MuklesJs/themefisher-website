@@ -1,0 +1,54 @@
+.btn {
+  @apply relative z-[1] cursor-pointer rounded-lg px-7 pb-3 pt-3.5 font-medium outline-0 outline-offset-0 transition-all duration-300 hover:no-underline text-center inline-block;
+  &:hover {
+    @apply bg-transparent;
+    transform: translateY(-1px);
+  }
+  &::before {
+    @apply absolute bottom-0 left-0 right-0 top-0 content-[""];
+  }
+  &[disabled] {
+    @apply cursor-not-allowed opacity-50;
+  }
+
+  &-sm {
+    @apply px-6 py-2;
+  }
+
+  &-xs {
+    @apply px-4 py-1.5 text-sm;
+  }
+
+  &-primary {
+    @apply bg-primary hover:bg-primary text-white hover:shadow-[0_8px_25px_-10px] hover:shadow-primary/40;
+  }
+
+  &-dark {
+    @apply bg-[#081E2B] hover:bg-[#081E2B] text-white hover:shadow-[0_8px_25px_-10px] hover:shadow-[#081E2B]/40;
+  }
+
+  &-outline-dark {
+    @apply border border-[#081E2B] text-[#081E2B] hover:shadow-[0_8px_25px_-10px] hover:shadow-[#081E2B]/40;
+  }
+
+  &-white {
+    @apply bg-white hover:bg-white text-dark hover:shadow-[0_8px_25px_-10px] hover:shadow-[#081E2B]/40;
+  }
+
+  &-outline-primary {
+    @apply border border-primary bg-white hover:bg-white text-primary hover:shadow-[0_8px_25px_-10px] hover:shadow-primary/40;
+  }
+
+  &-link {
+    @apply z-10 overflow-hidden text-primary p-0;
+  }
+
+  &-link-2 {
+    @apply z-10 overflow-hidden text-dark underline p-0 hover:text-dark hover:underline;
+  }
+
+  &-cta {
+    @apply border-0 text-white hover:shadow-[0_8px_25px_-10px_rgb(239,44,73,.5)];
+    background-image: linear-gradient(183deg, #f16e72 -30%, #ef2c49 90%);
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "All Themes",
+      "url": "/products",
+      "hasChildren": true,
+      "megaMenu": true,
+      "children": [
+        {
+          "name": "Astro Themes",
+          "url": "/astro-themes",
+          "image": "/images/icons/astro.svg",
+          "subtitle": "37 Astro Themes",
+          "group": "ssg"
+        },
+        {
+          "name": "Hugo Themes",
+          "url": "/hugo-themes",
+          "image": "/images/icons/hugo.svg",
+          "subtitle": "28 Hugo Themes",
+          "group": "ssg"
+        },
+        {
+          "name": "NextJs Templates",
+          "url": "/nextjs-templates",
+          "image": "/images/icons/nextjs.svg",
+          "subtitle": "19 NextJs Templates",
+          "group": "ssg"
+        },
+        {
+          "name": "Bootstrap Templates",
+          "url": "/bootstrap-templates",
+          "image": "/images/icons/bootstrap.svg",
+          "subtitle": "62 Bootstrap Templates",
+          "group": "css"
+        },
+        {
+          "name": "Tailwind Templates",
+          "url": "/tailwind-templates",
+          "image": "/images/icons/tailwind.svg",
+          "subtitle": "12 Tailwind Templates",
+          "group": "css"
+        },
+        {
+          "name": "Framer Templates",
+          "url": "/framer-templates",
+          "image": "/images/icons/framer.svg",
+          "subtitle": "Introducing Framer Templates",
+          "group": "css"
+        }
+      ]
+    },
+    {
+      "name": "Bundles",
+      "url": "/bundles",
+      "hasChildren": true,
+      "megaMenu": true,
+      "children": [
+        {
+          "name": "Bootstrap Bundle",
+          "url": "/bundles/bootstrap-bundle",
+          "image": "/images/icons/bootstrap.svg",
+          "subtitle": "14+ Premium Templates",
+          "group": "css"
+        },
+        {
+          "name": "Tailwind Bundle",
+          "url": "/bundles/tailwind-bundle",
+          "image": "/images/icons/tailwind.svg",
+          "subtitle": "11+ Premium Templates",
+          "group": "css"
+        },
+        {
+          "name": "All Access Pass",
+          "url": "/all-access-pass",
+          "image": "/images/icons/themefisher.svg",
+          "subtitle": "101+ Themes Bundle",
+          "highlight": true,
+          "group": "css"
+        },
+        {
+          "name": "Astro Bundle",
+          "url": "/bundles/astro-bundle",
+          "image": "/images/icons/astro.svg",
+          "subtitle": "32+ Premium Themes",
+          "group": "ssg"
+        },
+        {
+          "name": "Nextjs Bundle",
+          "url": "/bundles/nextjs-bundle",
+          "image": "/images/icons/nextjs.svg",
+          "subtitle": "16+ Premium Templates",
+          "group": "ssg"
+        },
+        {
+          "name": "Hugo Bundle",
+          "url": "/bundles/hugo-bundle",
+          "image": "/images/icons/hugo.svg",
+          "subtitle": "28+ Premium Themes",
+          "group": "ssg"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "url": "/contact",
+      "url_loggedin": "/dashboard/tickets"
+    },
+    {
+      "name": "Hire Experts",
+      "url": "https://zeon.studio/?ref=themefisher.com"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Products",
+      "pages": [
+        {
+          "name": "Astro Themes",
+          "url": "/astro-themes"
+        },
+        {
+          "name": "NextJs Templates",
+          "url": "/nextjs-templates"
+        },
+        {
+          "name": "Hugo Themes",
+          "url": "/hugo-themes"
+        },
+        {
+          "name": "Bootstrap Templates",
+          "url": "/bootstrap-templates"
+        },
+        {
+          "name": "Tailwind Templates",
+          "url": "/tailwind-templates"
+        }
+      ]
+    },
+    {
+      "name": "Bundles",
+      "pages": [
+        {
+          "name": "All Access Pass",
+          "url": "/all-access-pass"
+        },
+        {
+          "name": "Hugo Bundle",
+          "url": "/bundles/hugo-bundle"
+        },
+        {
+          "name": "Astro Bundle",
+          "url": "/bundles/astro-bundle"
+        },
+        {
+          "name": "Nextjs Bundle",
+          "url": "/bundles/nextjs-bundle"
+        },
+        {
+          "name": "Tailwind Bundle",
+          "url": "/bundles/tailwind-bundle"
+        },
+        {
+          "name": "Bootstrap Bundle",
+          "url": "/bundles/bootstrap-bundle"
+        }
+      ]
+    },
+    {
+      "name": "Help And Support",
+      "pages": [
+        {
+          "name": "Documentation",
+          "url": "https://docs.themefisher.com/",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Contact Us",
+          "url": "/contact",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Frequently Asked Questions",
+          "url": "/faq",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Custom Development",
+          "url": "/custom-development",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Blog",
+          "url": "/blog"
+        },
+        {
+          "name": "Brands",
+          "url": "/brands"
+        }
+      ]
+    },
+    {
+      "name": "Terms",
+      "pages": [
+        {
+          "name": "License",
+          "url": "/license",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Refund Policy",
+          "url": "/refund-policy",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Support Policy",
+          "url": "/support-policy",
+          "rel": "nofollow"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy",
+          "rel": "nofollow"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "name": "Purchased Products",
+      "url": "/dashboard/downloads",
+      "icon": "download"
+    },
+    {
+      "name": "Purchase History",
+      "url": "/dashboard/purchase-history",
+      "icon": "history"
+    },
+    {
+      "name": "Support Tickets",
+      "url": "/dashboard/tickets",
+      "icon": "ticket"
+    },
+    {
+      "name": "Profile Settings",
+      "url": "/dashboard/profile-settings",
+      "icon": "user"
+    },
+    {
+      "name": "Customization",
+      "url": "/dashboard/customization",
+      "icon": "customization",
+      "tag": "New"
+    }
+  ],
+  "draft": false
+}

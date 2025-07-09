@@ -1,0 +1,29 @@
+
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="53.2497468%" y1="3.94657389%" x2="33.8872063%" y2="81.2743992%" id="linearGradient-1">
+            <stop stop-color="#FFDD00" offset="0%"></stop>
+            <stop stop-color="#EF4056" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="104.348837%" y1="49.8903088%" x2="-109.133721%" y2="49.8903088%" id="linearGradient-2">
+            <stop stop-color="#5BC4BF" offset="0%"></stop>
+            <stop stop-color="#2A5CAA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.285714286%" y1="50.2175182%" x2="164.292857%" y2="50.2175182%" id="linearGradient-3">
+            <stop stop-color="#5BC4BF" offset="0%"></stop>
+            <stop stop-color="#2A5CAA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1.000000, 0.000000)">
+            <g id="2@2x" transform="translate(1.000000, 0.000000)">
+                <path d="M9.3,17.3 C9.3,14.7 7.7,12.4 5.3,11.6 C2.7,10.7 0.9,8.2 0.9,5.4 L0.9,1.9 C5.5,1.9 9.3,5.7 9.3,10.3 L9.3,17.3 Z" id="Path" fill="#0074BC"></path>
+                <path d="M17.8,6.3 L22.9,6.3 C22.9,6.3 22.9,6.2 22.9,6.2 L17.7,5.5 L17.8,6.3 Z" id="Path" fill="#0074BC"></path>
+                <path d="M17.8,6.2 C14.9,5.6 12,6.6 10,8.7 L9.3,9.4 L9.3,14.2 L9.3,18.3 C9.3,18.3 9.3,18.3 9.3,18.3 L9.3,23.6 C10.9,23.6 11.9,22 11.2,20.6 L10.5,19.3 C10,18.3 10.2,17 11.2,16.3 C13.4,14.5 15,12.3 15.4,10.1 C15.9,7 18.1,6.2 18.1,6.2 L17.8,6.2 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M9.3,15 L9.3,8.1 C9.3,6.4 10.1,5.1 11.3,4.3 C13.1,3.2 15.4,3.3 17,4.7 C17.5,5.1 17.9,5.7 17.9,6.3 C13.2,6.3 9.3,10.2 9.3,15 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                <path d="M9.3,14.2 C9.3,11.6 7.7,9.3 5.3,8.5 C2.7,7.6 0.9,5.1 0.9,2.3 L0.9,0.5 C5.5,0.5 9.3,4.3 9.3,8.9 L9.3,14.2 Z" id="Path" fill="url(#linearGradient-3)"></path>
+                <polygon id="Path" fill="#0074BC" points="9.3 17.5 7.9 23.7 9.3 23.7"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

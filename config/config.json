@@ -1,0 +1,118 @@
+{
+  "site": {
+    "title": "Best Website Themes and Templates - Themefisher",
+    "favicon": "/images/logo/favicon.png",
+    "logo": "/images/logo/logo.svg",
+    "logo_height": "40",
+    "logo_width": "180",
+    "copyright": "Copyright © <year> Themefisher",
+    "pagination": 15,
+    "description": "Themefisher offers hundreds of beautifully designed & highly customizable themes and templates that designers, developers and business owners can use to create professional websites.",
+    "site_url": "https://themefisher.com",
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "tag_manager_id": "GTM-TZRL6GQ",
+    "disqus_comment": false
+  },
+
+  "announcement": {
+    "enable": true,
+    "name": "AstroBundlePromotion",
+    "badge": "Special Offer",
+    "contents": [
+      "🎉 Purchase Today & Get 32+ Astro Themes only for $137 (30% OFF auto-applied) 👉 <a href='https://themefisher.com/bundles/astro-bundle?utm_source=announcement&utm_medium=tf_announcement&utm_campaign=astrobunle_promotion'>Get It Now</a>"
+    ]
+  },
+
+  "socialMedia": [
+    {
+      "name": "facebook",
+      "icon": "/images/icons/facebook-white.svg",
+      "link": "https://www.facebook.com/themefisher/"
+    },
+    {
+      "name": "twitter",
+      "icon": "/images/icons/twitter.svg",
+      "link": "https://x.com/themefisher/"
+    },
+    {
+      "name": "dribbble",
+      "icon": "/images/icons/dribbble.svg",
+      "link": "https://dribbble.com/themefisher/"
+    },
+    {
+      "name": "github",
+      "icon": "/images/icons/github.svg",
+      "link": "https://www.github.com/themefisher/"
+    }
+  ],
+
+  "brands": [
+    {
+      "name": "GethugoThemes",
+      "logo": "/images/logo/ght-logo-white.svg",
+      "url": "https://gethugothemes.com/?ref=themefisher-footer"
+    },
+    {
+      "name": "Statichunt",
+      "logo": "/images/logo/sh-logo-white.svg",
+      "url": "https://statichunt.com/?ref=themefisher-footer"
+    }
+  ],
+
+  "posthog": {
+    "enable": true,
+    "disabled_countries": ["India", "Pakistan", "Bangladesh"]
+  },
+
+  "payment_logo": [
+    {
+      "name": "Visa",
+      "src": "/images/payment-logo/visa.png"
+    },
+    {
+      "name": "PayPal",
+      "src": "/images/payment-logo/paypal.png"
+    },
+    {
+      "name": "Mastercard",
+      "src": "/images/payment-logo/mastercard.png"
+    },
+    {
+      "name": "American Express",
+      "src": "/images/payment-logo/american-express.png"
+    },
+    {
+      "name": "Discover",
+      "src": "/images/payment-logo/discover.png"
+    },
+    {
+      "name": "Maestro",
+      "src": "/images/payment-logo/maestro.png"
+    },
+    {
+      "name": "Bank Transfer",
+      "src": "/images/payment-logo/bank-transfer.png"
+    },
+    {
+      "name": "UnionPay",
+      "src": "/images/payment-logo/unionpay.png"
+    },
+    {
+      "name": "Apple Pay",
+      "src": "/images/payment-logo/apple-pay.png"
+    },
+    {
+      "name": "Google Pay",
+      "src": "/images/payment-logo/google-pay.png"
+    },
+    {
+      "name": "JCB Card",
+      "src": "/images/payment-logo/jcb-card.png"
+    },
+    {
+      "name": "Diners Club",
+      "src": "/images/payment-logo/diners-club.png"
+    }
+  ]
+}
