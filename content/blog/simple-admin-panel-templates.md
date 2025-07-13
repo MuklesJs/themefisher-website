@@ -1,18 +1,6 @@
 ---
 title: Best 30+ Simple Admin Panel Templates For Dashboard in 2025
 date: 2020-04-04
-meta_title:
-description:
-  A list of both free and premium high quality simple admin panel templates
-  for dashboard that are best suited for your web application projects.
-image: "/blog-thumb/simple-admin-panel-templates.webp"
-author: Mehedi Sharif
-last_update: 2024-01-20 #yyyy-mm-dd
-sponsored: false
-draft: false
-categories:
-  - dashboard-templates
-  - admin-templates
 ---
 
 With the development of different frameworks, the creation of beautiful and elegant themes has become easy and feasible. Simple admin panel templates are one stapes ahead. The workflow has also been developed and sped up a lot using these free and paid admin panel templates. You will find the templates a lot responsive and usable on all kinds of devices, including mobile and tablet computers.
