@@ -30,7 +30,12 @@
         "package": "elite",
         "price_before": "397",
         "price": "147",
-        "support": "6-months"
+        "support": "6-months",
+        "images": [
+          "https://themefisher.com/images/products/bootstrap-elite-1.png",
+          "https://themefisher.com/images/products/bootstrap-elite-2.png",
+          "https://themefisher.com/images/products/bootstrap-elite-3.png"
+        ]
       }
     ]
   }
